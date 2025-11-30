@@ -1,0 +1,24 @@
+{
+  "name": "supreme-memory",
+  "version": "1.0.0",
+  "description": "Repositório criado para organizar meus estudos de desenvolvimento. Aqui estou praticando conceitos fundamentais, explorando novas tecnologias e criando pequenos projetos enquanto avanço no meu aprendizado contínuo.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean8791/supreme-memory.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jean8791/supreme-memory/issues"
+  },
+  "homepage": "https://github.com/Jean8791/supreme-memory#readme",
+  "dependencies": {
+    "next": "15.4.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
