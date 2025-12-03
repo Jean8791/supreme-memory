@@ -4,7 +4,9 @@
   "description": "Repositório criado para organizar meus estudos de desenvolvimento. Aqui estou praticando conceitos fundamentais, explorando novas tecnologias e criando pequenos projetos enquanto avanço no meu aprendizado contínuo.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
     "next": "15.4.7",
     "react": "18.3.1",
     "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
   }
 }
