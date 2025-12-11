@@ -1,4 +1,4 @@
-import database from '../../../../infra/database.js';
+import database from 'infra/database.js';
 
 async function index(req, res) {
   const result = await database.query('SELECT NOW()');
