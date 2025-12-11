@@ -4,7 +4,10 @@
   "description": "Repositório criado para organizar meus estudos de desenvolvimento. Aqui estou praticando conceitos fundamentais, explorando novas tecnologias e criando pequenos projetos enquanto avanço no meu aprendizado contínuo.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run service:up && next dev",
+    "service:up": "docker compose -f infra/docker-compose.yaml up -d",
+    "service:stop": "docker compose -f infra/docker-compose.yaml stop",
+    "service:down": "docker compose -f infra/docker-compose.yaml down",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
