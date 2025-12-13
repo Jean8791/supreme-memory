@@ -28,6 +28,7 @@ async function status(req, res) {
       }
     }
   });
+
 }
 
 export default status;
