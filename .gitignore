@@ -2,3 +2,9 @@
 node_modules
 .idea
 
+
+# variáveis de ambiente com segredo (o .env.development versionado só tem valores de localhost)
+.env
+.env.local
+.env.*.local
+.env.production
